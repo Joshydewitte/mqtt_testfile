@@ -1,0 +1,30 @@
+{
+  "ioConfigurations": [
+    {
+      "inputPin": 4,
+      "isEnabled": true,
+      "actions": [
+        {
+          "type": "LATCH_CONTROL",
+          "outputPins": [6],
+          "outputState": true,
+          "duration": 0,
+          "invert": false
+        }
+      ]
+    },
+    {
+      "inputPin": 5,
+      "isEnabled": true,
+      "actions": [
+        {
+          "type": "LATCH_CONTROL",
+          "outputPins": [6],
+          "outputState": false,
+          "duration": 0,
+          "invert": false
+        }
+      ]
+    }
+  ]
+}
